@@ -2,7 +2,7 @@ Tanulói jegykezelő
 AnuglarJS 1.x + Typescript + Bootstrap 5 alapú feladat
 
 Futtatás
-(0. Ha módoszítani szeretnél akkor ajánlott telepíteni egy kódszerkezstőtm mint például a Visual Studio Code
+0. (Ha módoszítani szeretnél akkor ajánlott telepíteni egy kódszerkezstőtm mint például a Visual Studio Code
        Link: https://code.visualstudio.com/)
 
 1. Kipróbálni hogy vannak-e a kellő programok a gépen:
