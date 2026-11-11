@@ -13,6 +13,7 @@
             <h1 class="mb-4 text-center" style="color: white;">Jegy Kezelő</h1>
         </div>
 
+        <!-- main.ts funkciók eredményének kimutatása -->
         <div class="row mb-4">
             <div class="col-md-4">
                 <div class="card p-3">
@@ -36,10 +37,12 @@
             </div>
         </div>
 
+        <!-- Hiba / Siker üzenet -->
         <div class="alert alert-info" ng-if="vm.message">
             {{ vm.message }}
         </div>
 
+        <!-- Új tanuló adat felvétele / módosítása -->
         <div class="card p-4 mb-4">
             <h4>{{ vm.editingId? 'Jegy módosítása' : 'Új jegy felvétele' }}</h4>
 
@@ -71,6 +74,7 @@
             </form>
         </div>
         
+        <!-- Keresés -->
         <div class="row mb-3 d-flex justify-content-between align-items-center">
             <div class="col-md-6">
                 <input type="text" ng-model="vm.searchText" class="form-control" placeholder="Keresés név szerint">
@@ -89,6 +93,7 @@
             </div>
         </div>
 
+        <!-- Jegyek kilistázása -->
         <div class="card p-3 mb-3" ng-repeat="grade in vm.grades | filter:{student: vm.searchText, grade: vm.selectedGrade}">
             <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <div>
