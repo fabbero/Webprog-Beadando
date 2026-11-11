@@ -3,30 +3,29 @@ AnuglarJS 1.x + Typescript + Bootstrap 5 alapú feladat
 
 Futtatás
 
-1. Telepítés zip-ként, kicsomagolás és az index.html-re duplakattintással el indul.
+1. Telepítés zip-ként, kicsomagolás és az index.html-re duplakattintással megnyitod.
 
 Ha csak index.html és main.ts
 
-2. Ha csak azt a két fájlt telepítetted akkor következő lépések
-       Kódszerkezstő mint például Visual Studio Code-al a mappa megnyitása (Visual Studio Code telepítése innen: https://code.visualstudio.com/)
+2. Ha csak azt a két fájlt telepítetted akkor következő lépések. 
+       Kódszerkesztő mint például Visual Studio Code-al a mappa megnyitása (Visual Studio Code telepítése innen: https://code.visualstudio.com/). 
 
-3. Egy új terminál megnyitása (PowerShell legyen).
-       CMD: node -v Ha ez hibára fut akkor nodejs telepítése innen: https://nodejs.org/en/download
+3. Egy új PowerShell terminál megnyitása. 
+       CMD: node -v, Ha ez hibára fut akkor nodejs telepítése innen: https://nodejs.org/en/download . 
        CMD: npm -v
 
-4. TypeScript telepítése
-       CMD: npm install -g typescript
-       Ha ez hibára fut: "npm cannot be loaded because running scripts is disabled on this system"
-       Akkor a következőt kell a terminálba írni: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser 
-       Ezután egy "y"-t írni válaszként.
-       Ez engedélyezi a futtatását. Viszont módosítani fog beállításokon amiket ha nem értesz nézz utánna.
+4. TypeScript telepítése. 
+       CMD: "npm install -g typescript" .
+       Ha erre a hibára fut: "npm cannot be loaded because running scripts is disabled on this system" . 
+       Akkor a következőt kell a terminálba írni: "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser" .
+       Ezután egy "y"-t írni válaszként. 
+       Ez engedélyezi a futtatását. Viszont módosítani fog beállításokon amiket ha nem értesz nézz utánna. 
 
-5. TypeScript telepítés ellenőrzése
-       CMD: tsc -v Ez ki fog írni egy verziószámot. 
-       Ha ez megjelent akkor:
-       tsc main.ts Ez le fog generálni egy javascript verziót a main.ts-hez. Ha semmi egyebet nem adtál meg nekki akkor ugyanabba a mappába.
+5. TypeScript telepítés ellenőrzése. 
+       CMD: "tsc -v" . Ez ki fog írni egy verziószámot. 
+       Ha ez megjelent akkor: tsc main.ts Ez le fog generálni egy javascript verziót a main.ts-hez. Ha semmi egyebet nem adtál meg nekki akkor ugyanabba a mappába. 
 
-6. Ha megjelent a main.js akkor egyszerűen az 1. lépés újra
+6. Ha megjelent a main.js akkor egyszerűen az 1. lépés újra. 
 
 Mit hol találsz:
 
